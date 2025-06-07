@@ -26,3 +26,6 @@ clean:
 		$(MAKE) -C $$dir clean; \
 	done
 	@rm -rf output
+
+install:
+	cp -r output/ /usr/*
