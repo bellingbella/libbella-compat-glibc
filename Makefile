@@ -29,3 +29,4 @@ clean:
 
 install:
 	sudo cp -r output/* /usr/
+	sudo cp -r include/* /usr/include

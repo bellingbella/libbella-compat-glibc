@@ -19,6 +19,3 @@ module:
 
 clean:
 	@rm -f *.o *.so *.elf
-
-install:
-	
