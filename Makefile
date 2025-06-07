@@ -28,4 +28,4 @@ clean:
 	@rm -rf output
 
 install:
-	cp -r output/ /usr/*
+	sudo cp -r output/* /usr/
